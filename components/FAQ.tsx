@@ -9,7 +9,7 @@ const faqData: FaqItem[] = [
   },
   {
     question: "Apakah boleh mengirim lebih dari 1 karya?",
-    answer: "Boleh, maksimal 2 karya per peserta. Namun tetap mendaftar ulang di form untuk karya kedua."
+    answer: "Tidak boleh ya rekan, hanya 1 karya per peserta."
   },
   {
     question: "Apakah pendaftaran dipungut biaya?",
