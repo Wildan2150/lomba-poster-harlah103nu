@@ -20,7 +20,7 @@ const Navbar: React.FC = () => {
         {/* Logo Text/Brand */}
         <div className="flex items-center gap-3">
            <img 
-             src="https://blogger.googleusercontent.com/img/a/AVvXsEiS9QsUttRX0v60XQGYL60YUhsHmIOBHsnwV0VxuofWClNuvgdmVzm9IkTMaigE-v9hYyCwLWOU8-jZJtDL9CEzZ6oX_EtepKEpdtABXPxLodvs3E5521sRi1KX8vjweV1ubf1ymnWw4NvLz9EdRoRTw1g5jutH-C9s3eUmufrjJtg_kR0QM0ly6Y7v3e62" 
+             src="https://blogger.googleusercontent.com/img/a/AVvXsEhclx5SH_T8vyWmuytTxlN6_k88qW4P6aM41FnQtdbTRyxHAp_9P5Sk6eQZa2QuPyj-wk8l0qEfdV_MFFkqudIiYtELzvlYoqxs208cP-KaRSeQgcMnn9T4pFlE6ZqQuz5OMWAAjChqk_u43ABsYIk7QYRc6HJA-Pgh9F3UBG1th1mXsfLTJifA0SGY9rUV" 
              alt="Logo PAC" 
              className="w-10 h-10 object-contain"
            />
@@ -76,7 +76,7 @@ const Navbar: React.FC = () => {
               </a>
             ))}
              <a 
-                href="https://bit.ly/DaftarPosterNU2026"
+                href="https://forms.gle/9Lg3htmerWNajmHz8"
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => setIsOpen(false)}

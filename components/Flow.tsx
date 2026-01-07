@@ -49,7 +49,7 @@ const Flow: React.FC = () => {
             </div>
             <div className="text-gray-400 text-xs mb-3">Isi form & upload file Hi-Res. Siapkan scan Kartu Pelajar/KTM.</div>
             <a 
-              href="https://bit.ly/DaftarPosterNU2026"
+              href="https://forms.gle/9Lg3htmerWNajmHz8"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white text-xs font-bold rounded-lg transition-colors shadow-lg shadow-blue-900/30"

@@ -77,7 +77,7 @@ const Requirements: React.FC = () => {
             <p className="text-nu-200 text-sm">Ditutup pukul 23.59 WIB</p>
           </div>
           <div className="pl-6 relative">
-            <div className="absolute -left-[9px] top-1.5 w-4 h-4 rounded-full bg-nu-400 border-2 border-nu-800"></div>
+            <div className="absolute -left-[9px] top-1.5 w-4 h-4 rounded-full bg-white border-2 border-nu-800"></div>
             <span className="text-xs font-semibold text-nu-300 uppercase tracking-wider">1 - 3 Feb 2026</span>
             <h4 className="font-bold text-lg">Proses Penjurian</h4>
           </div>
@@ -91,7 +91,7 @@ const Requirements: React.FC = () => {
 
       <div className="text-center">
          <a 
-           href="https://bit.ly/DaftarPosterNU2026" 
+           href="https://forms.gle/9Lg3htmerWNajmHz8" 
            target="_blank"
            rel="noopener noreferrer"
            className="inline-flex items-center gap-2 px-8 py-3 bg-nu-600 hover:bg-nu-700 text-white font-bold rounded-full shadow-lg shadow-nu-200 transition-all hover:-translate-y-1"

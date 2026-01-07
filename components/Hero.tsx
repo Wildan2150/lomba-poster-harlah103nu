@@ -8,7 +8,7 @@ const Hero: React.FC = () => {
       <div className="absolute inset-0 opacity-35 bg-[url('https://www.transparenttextures.com/patterns/arabesque.png')]"></div>
       
       {/* Organization Logos Container */}
-      <div className="relative z-10 flex items-center justify-center gap-6 mb-8 bg-white/10 p-3 rounded-full backdrop-blur-sm border border-white/10 shadow-lg">
+      <div className="relative z-10 flex items-center justify-center gap-3 mb-8 bg-white/10 p-3 rounded-full backdrop-blur-sm border border-white/10 shadow-lg">
         <img 
           src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitDBZYeou62Kol6t4nDEDYwJbSMJ6yAd5q67mZRbQFnObOBUvd3ApNJc1FuwP4YSPWq-tZfB9MaHO5Vf2o95ESaSFiz9Gi5WOiz_CyzSYvjAjFmhEDBCf-QWoYbJgd1_93_cPbh6Qn3FE/s1280/LOGO+IPNU+RESMI+KONGRES+2018.png" 
           alt="Logo IPNU" 
@@ -30,10 +30,10 @@ const Hero: React.FC = () => {
         {/* Main Event Logo with Backlight Glow */}
         <div className="mb-6 w-[80%] h-full relative group">
            {/* SOLUSI: Menambahkan 'Spotlight' putih di belakang logo agar logo terpisah dari background hijau */}
-           <div className="absolute inset-0 bg-white/70 rounded-full blur-[80px] transform scale-100"></div>
-           <div className="absolute inset-0 bg-gold-400/10 rounded-full blur-2xl opacity-50"></div>
+           {/*<div className="absolute inset-0 bg-white/70 rounded-full blur-[80px] transform scale-100"></div>*/}
+           <div className="absolute inset-0 bg-gold-400/50 rounded-full blur-[50px] opacity-50"></div>
            <img 
-            src="https://blogger.googleusercontent.com/img/a/AVvXsEgxtqTEYrxl92PDlaeVRrfCyKQVHLC85c-5fsGrx0TjGL-2M-8DSv5rEkQRbnVF7ScVP6ur_Ctc9WOZFsvK0oEDvzcL4By4VgQh3_bCBiYF5nZUkWTRpKKLNHVDftLrkMvs3vDlZjcjRgCYWGV6BRuDntpyQH-XNDYXOWaWcAilCG80gAbUjVMdSTh_tRx8" 
+            src="https://blogger.googleusercontent.com/img/a/AVvXsEhFUtpvY0YRoNC4XkmvfzDvtxnWuoksDGjTdOEjHsm0tkLUoPYS8p2zhzwK6dI5F5m24U_LDsUg4tDi5GrVjCcvpj1ueyKMrMRLIv1nfcgluXhxFzhHI2AhnHumy9oAC28U6ZexQVM86Cxw9TvUe0969E4yIkhUga9GTytLJ3Kyjh_OzaWENGZLVBaIEGcU" 
             alt="Logo Harlah NU 2026" 
             className="w-full h-full object-contain drop-shadow-2xl relative z-10"
            />
@@ -56,7 +56,7 @@ const Hero: React.FC = () => {
         {/* Action Buttons */}
         <div className="flex flex-col w-full gap-3 px-4 mb-8">
             <a 
-              href="https://bit.ly/DaftarPosterNU2026" 
+              href="https://forms.gle/9Lg3htmerWNajmHz8" 
               target="_blank"
               rel="noopener noreferrer"
               className="w-full py-3.5 bg-gradient-to-r from-gold-500 to-gold-400 hover:from-gold-400 hover:to-gold-300 text-nu-900 font-bold rounded-xl shadow-lg shadow-gold-900/20 transform hover:-translate-y-0.5 transition-all flex items-center justify-center gap-2 group"
