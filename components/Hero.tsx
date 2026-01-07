@@ -31,7 +31,7 @@ const Hero: React.FC = () => {
         <div className="mb-6 w-[80%] h-full relative group">
            {/* SOLUSI: Menambahkan 'Spotlight' putih di belakang logo agar logo terpisah dari background hijau */}
            {/*<div className="absolute inset-0 bg-white/70 rounded-full blur-[80px] transform scale-100"></div>*/}
-           <div className="absolute inset-0 bg-gold-400/50 rounded-full blur-[50px] opacity-50"></div>
+           <div className="absolute inset-0 bg-gold-400/35 rounded-full blur-[80px] transform scale-100"></div>
            <img 
             src="https://blogger.googleusercontent.com/img/a/AVvXsEhFUtpvY0YRoNC4XkmvfzDvtxnWuoksDGjTdOEjHsm0tkLUoPYS8p2zhzwK6dI5F5m24U_LDsUg4tDi5GrVjCcvpj1ueyKMrMRLIv1nfcgluXhxFzhHI2AhnHumy9oAC28U6ZexQVM86Cxw9TvUe0969E4yIkhUga9GTytLJ3Kyjh_OzaWENGZLVBaIEGcU" 
             alt="Logo Harlah NU 2026" 
@@ -59,7 +59,7 @@ const Hero: React.FC = () => {
               href="https://forms.gle/9Lg3htmerWNajmHz8" 
               target="_blank"
               rel="noopener noreferrer"
-              className="w-full py-3.5 bg-gradient-to-r from-gold-500 to-gold-400 hover:from-gold-400 hover:to-gold-300 text-nu-900 font-bold rounded-xl shadow-lg shadow-gold-900/20 transform hover:-translate-y-0.5 transition-all flex items-center justify-center gap-2 group"
+              className="w-full py-3.5 bg-gradient-to-r from-gold-500 to-gold-400 hover:from-gold-400 hover:to-gold-350 text-nu-900 font-bold rounded-xl shadow-lg shadow-gold-900/20 transform hover:-translate-y-0.5 transition-all flex items-center justify-center gap-2 group"
             >
               DAFTAR SEKARANG
               <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
