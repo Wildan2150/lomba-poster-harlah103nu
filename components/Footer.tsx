@@ -1,5 +1,7 @@
 import React from 'react';
-import { Phone, Instagram, ShieldAlert } from 'lucide-react';
+import { Phone, ShieldAlert } from 'lucide-react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faInstagram, faTiktok } from '@fortawesome/free-brands-svg-icons';
 
 const Footer: React.FC = () => {
   return (
@@ -40,10 +42,16 @@ const Footer: React.FC = () => {
           </div>
           <div>
              <h4 className="font-bold text-lg mb-4 text-white">Ikuti Kami</h4>
-             <a href="#" className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg text-sm font-bold hover:opacity-90 transition-opacity">
-               <Instagram size={18} />
-               @pacipnuippnugadingrejo
-             </a>
+             <div className="space-y-3">
+               <a href="https://www.instagram.com/pacipnuippnugadingrejo" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg text-sm font-bold hover:opacity-90 transition-opacity">
+                 <FontAwesomeIcon icon={faInstagram} />
+                 @pacipnuippnugadingrejo
+               </a>
+               <a href="https://www.tiktok.com/@pelajarnugadingrejo" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-gray-700 to-black rounded-lg text-sm font-bold hover:opacity-90 transition-opacity">
+                 <FontAwesomeIcon icon={faTiktok} />
+                 @pelajarnugadingrejo
+               </a>
+             </div>
           </div>
         </div>
 
