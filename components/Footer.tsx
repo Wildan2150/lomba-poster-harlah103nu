@@ -1,0 +1,63 @@
+import React from 'react';
+import { Phone, Instagram, ShieldAlert } from 'lucide-react';
+
+const Footer: React.FC = () => {
+  return (
+    <footer className="bg-nu-900 text-white pt-16 pb-8 px-6 rounded-t-3xl mt-6">
+      <div className="max-w-xl mx-auto">
+        
+        {/* Important Notes */}
+        <div className="mb-10 bg-nu-800 p-6 rounded-2xl border border-nu-700">
+          <div className="flex items-center gap-2 mb-4 text-gold-400">
+            <ShieldAlert size={20} />
+            <h3 className="font-bold">Hak Cipta & Ketentuan</h3>
+          </div>
+          <ul className="list-disc list-outside ml-4 space-y-2 text-sm text-nu-200">
+            <li>Panitia berhak mendiskualifikasi peserta yang terbukti melanggar aturan.</li>
+            <li>Hak cipta tetap pada peserta, Panitia berhak mempublikasikan karya terpilih sebagai media syiar.</li>
+            <li>Keputusan dewan juri bersifat mutlak.</li>
+          </ul>
+        </div>
+
+        {/* Contacts */}
+        <div className="grid md:grid-cols-2 gap-8 mb-12">
+          <div>
+            <h4 className="font-bold text-lg mb-4 text-white">Narahubung</h4>
+            <div className="space-y-3">
+              <a href="#" className="flex items-center gap-3 text-nu-200 hover:text-white transition-colors">
+                <div className="p-2 bg-white/10 rounded-full">
+                  <Phone size={16} />
+                </div>
+                <span className="text-sm">08xx-xxxx-xxxx (Rek. Nama)</span>
+              </a>
+              <a href="#" className="flex items-center gap-3 text-nu-200 hover:text-white transition-colors">
+                 <div className="p-2 bg-white/10 rounded-full">
+                  <Phone size={16} />
+                </div>
+                <span className="text-sm">08xx-xxxx-xxxx (Rek. Nama)</span>
+              </a>
+            </div>
+          </div>
+          <div>
+             <h4 className="font-bold text-lg mb-4 text-white">Ikuti Kami</h4>
+             <a href="#" className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg text-sm font-bold hover:opacity-90 transition-opacity">
+               <Instagram size={18} />
+               @pacipnuippnugadingrejo
+             </a>
+          </div>
+        </div>
+
+        {/* Copyright */}
+        <div className="text-center pt-8 border-t border-nu-800">
+          <p className="text-xs text-nu-400">
+            © 2026 PAC IPNU IPPNU Gadingrejo. All rights reserved.<br/>
+            Guidebook Lomba Poster Harlah NU ke-103
+          </p>
+        </div>
+
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
