@@ -30,13 +30,13 @@ const Footer: React.FC = () => {
                 <div className="p-2 bg-white/10 rounded-full">
                   <Phone size={16} />
                 </div>
-                <span className="text-sm">08xx-xxxx-xxxx (Rek. Nama)</span>
+                <span className="text-sm">0878-7831-6456 (Rekan Yakin)</span>
               </a>
               <a href="#" className="flex items-center gap-3 text-nu-200 hover:text-white transition-colors">
                  <div className="p-2 bg-white/10 rounded-full">
                   <Phone size={16} />
                 </div>
-                <span className="text-sm">08xx-xxxx-xxxx (Rek. Nama)</span>
+                <span className="text-sm">0895-1926-4803 (Rekanita Nava)</span>
               </a>
             </div>
           </div>
