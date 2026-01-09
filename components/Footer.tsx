@@ -26,13 +26,13 @@ const Footer: React.FC = () => {
           <div>
             <h4 className="font-bold text-lg mb-4 text-white">Narahubung</h4>
             <div className="space-y-3">
-              <a href="#" className="flex items-center gap-3 text-nu-200 hover:text-white transition-colors">
+              <a href="https://wa.me/6287878316456" className="flex items-center gap-3 text-nu-200 hover:text-white transition-colors">
                 <div className="p-2 bg-white/10 rounded-full">
                   <Phone size={16} />
                 </div>
                 <span className="text-sm">0878-7831-6456 (Rekan Yakin)</span>
               </a>
-              <a href="#" className="flex items-center gap-3 text-nu-200 hover:text-white transition-colors">
+              <a href="https://wa.me/6289519264803" className="flex items-center gap-3 text-nu-200 hover:text-white transition-colors">
                  <div className="p-2 bg-white/10 rounded-full">
                   <Phone size={16} />
                 </div>
