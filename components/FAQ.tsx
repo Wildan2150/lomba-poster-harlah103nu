@@ -4,20 +4,28 @@ import { FaqItem } from '../types';
 
 const faqData: FaqItem[] = [
   {
+    question: "Dimana saya bisa download Logo & Aset Lomba?",
+    answer: "Anda bisa langsung mendownload seluruh aset logo melalui link berikut: bit.ly/AsetHarlahNUGadingrejo2026"
+  },
+  {
     question: "Apakah boleh menggunakan Canva?",
     answer: "Boleh, asalkan tidak menggunakan template jadi mentah-mentah. Peserta harus mengkreasikan layout sendiri. Pastikan elemen yang dipakai free copyright."
   },
   {
+    question: "Apakah boleh mencantumkan Watermark/Tanda Tangan?",
+    answer: "TIDAK BOLEH. Poster harus bersih dari identitas desainer (nama/logo pribadi) agar penjurian berlangsung objektif (Blind Judging)."
+  },
+  {
     question: "Apakah boleh mengirim lebih dari 1 karya?",
-    answer: "Tidak boleh ya rekan, hanya 1 karya per peserta."
+    answer: "Tidak boleh ya Rekan/Rekanita, satu peserta hanya diperbolehkan mengirimkan 1 karya terbaik."
   },
   {
     question: "Apakah pendaftaran dipungut biaya?",
     answer: "TIDAK. Lomba ini 100% GRATIS."
   },
   {
-    question: "Kapan link download logo bisa diakses?",
-    answer: "Link sudah tersedia di Bio Instagram @pacipnuippnugadingrejo."
+    question: "Bagaimana jika ada kendala saat upload file?",
+    answer: "Pastikan ukuran file maksimal 10MB. Jika masih terkendala, silakan hubungi Narahubung via WhatsApp untuk bantuan teknis."
   }
 ];
 

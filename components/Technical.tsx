@@ -12,30 +12,30 @@ const Technical: React.FC = () => {
       {/* Specs Card */}
       <div className="grid grid-cols-2 gap-4 mb-10">
         <div className="col-span-2 bg-blue-50 p-4 rounded-xl border border-blue-100 flex items-center gap-3">
-           <FileImage className="text-blue-600 flex-shrink-0" />
-           <div>
-             <h4 className="font-bold text-blue-900 text-sm uppercase">Format File</h4>
-             <p className="text-blue-700 text-sm">JPG/JPEG/PNG High Quality</p>
-           </div>
+          <FileImage className="text-blue-600 flex-shrink-0" />
+          <div>
+            <h4 className="font-bold text-blue-900 text-sm uppercase">Format File</h4>
+            <p className="text-blue-700 text-sm">JPG/JPEG/PNG High Quality</p>
+          </div>
         </div>
         <div className="bg-gray-50 p-4 rounded-xl border border-gray-100">
-           <span className="block text-xs text-gray-500 uppercase font-bold mb-1">Ukuran</span>
-           <span className="block font-bold text-gray-800">A3</span>
-           <span className="text-xs text-gray-500">(29,7 x 42 cm)</span>
+          <span className="block text-xs text-gray-500 uppercase font-bold mb-1">Ukuran</span>
+          <span className="block font-bold text-gray-800">A3</span>
+          <span className="text-xs text-gray-500">(29,7 x 42 cm)</span>
         </div>
         <div className="bg-gray-50 p-4 rounded-xl border border-gray-100">
-           <span className="block text-xs text-gray-500 uppercase font-bold mb-1">Orientasi</span>
-           <span className="block font-bold text-gray-800">Potret</span>
-           <span className="text-xs text-gray-500">(Vertikal)</span>
+          <span className="block text-xs text-gray-500 uppercase font-bold mb-1">Orientasi</span>
+          <span className="block font-bold text-gray-800">Potret</span>
+          <span className="text-xs text-gray-500">(Vertikal)</span>
         </div>
         <div className="bg-gray-50 p-4 rounded-xl border border-gray-100">
-           <span className="block text-xs text-gray-500 uppercase font-bold mb-1">Resolusi</span>
-           <span className="block font-bold text-gray-800">300 DPI</span>
-           <span className="text-xs text-gray-500">Anti pecah</span>
+          <span className="block text-xs text-gray-500 uppercase font-bold mb-1">Resolusi</span>
+          <span className="block font-bold text-gray-800">300 DPI</span>
+          <span className="text-xs text-gray-500">Anti pecah</span>
         </div>
         <div className="bg-gray-50 p-4 rounded-xl border border-gray-100">
-           <span className="block text-xs text-gray-500 uppercase font-bold mb-1">Size Max</span>
-           <span className="block font-bold text-gray-800">10 MB</span>
+          <span className="block text-xs text-gray-500 uppercase font-bold mb-1">Size Max</span>
+          <span className="block font-bold text-gray-800">10 MB</span>
         </div>
       </div>
 
@@ -80,14 +80,14 @@ const Technical: React.FC = () => {
         </div>
 
         <div className="bg-yellow-50 border border-yellow-200 rounded-xl p-4 flex gap-4 items-start">
-            <div className="bg-yellow-100 p-2 rounded-full text-yellow-600 flex-shrink-0">
-                <Download size={20} />
-            </div>
-            <div>
-                <h4 className="font-bold text-gray-900 text-sm">Download Aset Logo</h4>
-                <p className="text-xs text-gray-600 mt-1 mb-2">Link download tersedia di Bio Instagram kami.</p>
-                <a href="#" className="text-xs font-bold text-yellow-700 underline">Ke Instagram @pacipnuippnugadingrejo</a>
-            </div>
+          <div className="bg-yellow-100 p-2 rounded-full text-yellow-600 flex-shrink-0">
+            <Download size={20} />
+          </div>
+          <div>
+            <h4 className="font-bold text-gray-900 text-sm">Download Aset Logo</h4>
+            <p className="text-xs text-gray-600 mt-1 mb-2">Link download tersedia di bawah ini.</p>
+            <a href="https://bit.ly/AsetHarlahNUGadingrejo2026" className="text-xs font-bold text-yellow-700 underline">bit.ly/AsetHarlahNUGadingrejo2026</a>
+          </div>
         </div>
       </div>
     </div>

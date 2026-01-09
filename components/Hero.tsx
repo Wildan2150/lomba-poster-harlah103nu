@@ -3,26 +3,17 @@ import { Calendar, MapPin, ArrowRight } from 'lucide-react';
 
 const Hero: React.FC = () => {
   return (
-    <div className="relative w-full min-h-[90vh] flex flex-col justify-start pt-28 items-center bg-gradient-to-b from-nu-900 via-nu-800 to-nu-700 text-white text-center px-6 pb-20 overflow-hidden">
+    <div className="relative w-full min-h-[90vh] flex flex-col justify-start pt-28 items-center bg-gradient-to-b from-[#2d2b2c] via-[#473a22] to-[#655c4b] text-white text-center px-6 pb-20 overflow-hidden">
       {/* Background Pattern Overlay - Reduced opacity for better text readability */}
-      <div className="absolute inset-0 opacity-35 bg-[url('https://www.transparenttextures.com/patterns/arabesque.png')]"></div>
+      <div className="absolute inset-0 opacity-40 bg-[url('https://www.transparenttextures.com/patterns/arabesque.png')]"></div>
       
       {/* Organization Logos Container */}
       <div className="relative z-10 flex items-center justify-center gap-3 mb-8 bg-white/10 p-3 rounded-full backdrop-blur-sm border border-white/10 shadow-lg">
-        <img 
-          src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitDBZYeou62Kol6t4nDEDYwJbSMJ6yAd5q67mZRbQFnObOBUvd3ApNJc1FuwP4YSPWq-tZfB9MaHO5Vf2o95ESaSFiz9Gi5WOiz_CyzSYvjAjFmhEDBCf-QWoYbJgd1_93_cPbh6Qn3FE/s1280/LOGO+IPNU+RESMI+KONGRES+2018.png" 
-          alt="Logo IPNU" 
-          className="h-10 w-auto object-contain drop-shadow-md hover:scale-110 transition-transform" 
-        />
-         <img 
-          src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6XwTQOY1YpAKdxl0622Qu4zMuG9XyRkUkBOqBSKW-jYOltgPjpqryAUAijZ2bYUNwOUyRNBMlgdx96_VE33_7ARkVPEX-1HUApMdueRXd0d8ppOriaXCQVqxX1VNGIMtzXr3Y_vUBm2Q/s1280/LOGO+RESMI+IPPNU.png" 
-          alt="Logo IPPNU" 
-          className="h-10 w-auto object-contain drop-shadow-md hover:scale-110 transition-transform" 
-        />
+        
          <img 
           src="https://blogger.googleusercontent.com/img/a/AVvXsEiS9QsUttRX0v60XQGYL60YUhsHmIOBHsnwV0VxuofWClNuvgdmVzm9IkTMaigE-v9hYyCwLWOU8-jZJtDL9CEzZ6oX_EtepKEpdtABXPxLodvs3E5521sRi1KX8vjweV1ubf1ymnWw4NvLz9EdRoRTw1g5jutH-C9s3eUmufrjJtg_kR0QM0ly6Y7v3e62" 
           alt="Logo PAC Gadingrejo" 
-          className="h-10 w-auto object-contain drop-shadow-md hover:scale-110 transition-transform" 
+          className="h-16 w-auto object-contain drop-shadow-md hover:scale-110 transition-transform" 
         />
       </div>
 
@@ -33,7 +24,7 @@ const Hero: React.FC = () => {
            {/*<div className="absolute inset-0 bg-white/70 rounded-full blur-[80px] transform scale-100"></div>*/}
            <div className="absolute inset-0 bg-gold-400/35 rounded-full blur-[80px] transform scale-100"></div>
            <img 
-            src="https://blogger.googleusercontent.com/img/a/AVvXsEhFUtpvY0YRoNC4XkmvfzDvtxnWuoksDGjTdOEjHsm0tkLUoPYS8p2zhzwK6dI5F5m24U_LDsUg4tDi5GrVjCcvpj1ueyKMrMRLIv1nfcgluXhxFzhHI2AhnHumy9oAC28U6ZexQVM86Cxw9TvUe0969E4yIkhUga9GTytLJ3Kyjh_OzaWENGZLVBaIEGcU" 
+            src="https://blogger.googleusercontent.com/img/a/AVvXsEhr8PsbcbXb4W1AsKldN7PxJ-4fLX18ZF_3E2djJsktBbOYkAJudJMgkpMYUnhZ6EwGGBSCoNeCo531mLd3L3JVQ4gnHIgu5ITr4gbDXaGGQkSPFq5aDatu0vN3Dzkja1MMDlX8yjR9kUg2sLQX9mXPhVPQhnZObDD-zS6L1-ysKt2WlzQ7REjdExiQKhb_" 
             alt="Logo Harlah NU 2026" 
             className="w-full h-full object-contain drop-shadow-2xl relative z-10"
            />
@@ -59,9 +50,9 @@ const Hero: React.FC = () => {
               href="https://forms.gle/9Lg3htmerWNajmHz8" 
               target="_blank"
               rel="noopener noreferrer"
-              className="w-full py-3.5 bg-gradient-to-r from-gold-500 to-gold-400 hover:from-gold-400 hover:to-gold-350 text-nu-900 font-bold rounded-xl shadow-lg shadow-gold-900/20 transform hover:-translate-y-0.5 transition-all flex items-center justify-center gap-2 group"
+              className="w-full py-3.5 bg-gradient-to-r from-gold-500 to-gold-400 hover:from-gold-400 hover:to-gold-350 text-yellow-900 font-bold rounded-xl shadow-lg shadow-gold-900/20 transform hover:-translate-y-0.5 transition-all flex items-center justify-center gap-2 group"
             >
-              DAFTAR SEKARANG
+              DAFTAR SEKARANG (GRATIS)
               <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
             </a>
             <a 
@@ -72,18 +63,18 @@ const Hero: React.FC = () => {
             </a>
         </div>
 
-        <div className="bg-nu-900/50 backdrop-blur-md rounded-xl p-4 border border-white/10 mb-8 w-full shadow-inner">
-          <p className="italic font-serif text-sm md:text-base leading-relaxed text-gray-100">
+        <div className="bg-yellow-300/20 backdrop-blur-md rounded-xl p-4 border border-white/10 mb-8 w-full shadow-inner">
+          <p className="italic font-serif text-sm md:text-base leading-relaxed text-slate-100">
             "Tunjukkan Karyamu, Rayakan Khidmah Satu Abad Lebih Nahdlatul Ulama"
           </p>
         </div>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center text-sm font-medium text-nu-100">
-          <div className="flex items-center gap-2 bg-nu-800/80 px-3 py-1.5 rounded-full border border-nu-600/50 shadow-sm">
+          <div className="flex items-center gap-2 bg-yellow-300/20 px-3 py-1.5 rounded-full border border-yellow-600/50 shadow-sm">
             <Calendar className="w-4 h-4 text-gold-400" />
             10 - 31 Januari 2026
           </div>
-          <div className="flex items-center gap-2 bg-nu-800/80 px-3 py-1.5 rounded-full border border-nu-600/50 shadow-sm">
+          <div className="flex items-center gap-2 bg-yellow-300/20 px-3 py-1.5 rounded-full border border-yellow-600/50 shadow-sm">
             <MapPin className="w-4 h-4 text-gold-400" />
             Gadingrejo
           </div>

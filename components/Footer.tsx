@@ -5,11 +5,11 @@ import { faInstagram, faTiktok } from '@fortawesome/free-brands-svg-icons';
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-nu-900 text-white pt-16 pb-8 px-6 rounded-t-3xl mt-6">
+    <footer className="bg-gradient-to-b from-[#2d2b2c] to-[#473a22] text-white pt-16 pb-8 px-6 rounded-t-3xl mt-6">
       <div className="max-w-xl mx-auto">
         
         {/* Important Notes */}
-        <div className="mb-10 bg-nu-800 p-6 rounded-2xl border border-nu-700">
+        <div className="mb-10 bg-white/15 p-6 rounded-2xl border border-yellow-500">
           <div className="flex items-center gap-2 mb-4 text-gold-400">
             <ShieldAlert size={20} />
             <h3 className="font-bold">Hak Cipta & Ketentuan</h3>
@@ -56,7 +56,7 @@ const Footer: React.FC = () => {
         </div>
 
         {/* Copyright */}
-        <div className="text-center pt-8 border-t border-nu-800">
+        <div className="text-center pt-8 border-t border-yellow-500">
           <p className="text-xs text-nu-400">
             © 2026 PAC IPNU IPPNU Gadingrejo. All rights reserved.<br/>
             Guidebook Lomba Poster Harlah NU ke-103
